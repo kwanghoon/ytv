@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>방송국 소개</item>
+        <item>주일예배</item>
+        <item>오후예배</item>
+        <item>채플</item>
+        <item>기획방송</item>
+        <item>전체</item>
+    </string-array>
+</resources>

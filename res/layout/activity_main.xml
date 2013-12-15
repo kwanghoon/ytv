@@ -1,0 +1,103 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+	            <ScrollView
+	                android:id="@+id/scrollView1"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:orientation="vertical" >
+
+	                    <TextView
+	                        android:id="@+id/TextView1"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:gravity="center_horizontal" >
+
+	                        <requestFocus />
+	                    </TextView>
+
+	                    <ImageView
+	                        android:id="@+id/imageView1"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="0dip"
+	                        android:layout_weight="10.92"
+	                        android:scaleType="center" />
+	                    
+	                    <TextView
+	                        android:id="@+id/TextView2"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:gravity="center_horizontal" >
+	                        <requestFocus />
+	                    </TextView>
+	                    
+	                    <TextView
+	                        android:id="@+id/TextView3"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:gravity="center_horizontal" >
+	                        <requestFocus />
+	                    </TextView>
+	                    
+	                    <TextView
+	                        android:id="@+id/TextView4"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:gravity="center_horizontal" >
+	                        <requestFocus />
+	                    </TextView>
+	                    
+	                    <TextView
+	                        android:id="@+id/TextView5"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:gravity="center_horizontal" >
+	                        <requestFocus />
+	                    </TextView>
+	                    
+	                </LinearLayout>
+
+	            </ScrollView>
+
+	            
+	            
+		            <ImageView
+		                android:id="@+id/imageView2"
+		                android:layout_width="fill_parent"
+		                android:layout_height="fill_parent"
+		                android:scaleType="center" />
+	            
+	           
+
+    </FrameLayout>
+    
+    
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#111" >
+   	</ListView>
+</android.support.v4.widget.DrawerLayout>
