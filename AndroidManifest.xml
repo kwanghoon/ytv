@@ -31,6 +31,7 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" >
         </activity>
+        <activity android:name="VideoWallDemoActivity"></activity>
   	</application>
 
 </manifest>
